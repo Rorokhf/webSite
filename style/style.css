@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.stakeyNav{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container a{
+    text-decoration: none;
+}
+
+.navLinks{
+    float: right;
+    font-size: 26px;
+    width: 50%;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+}
+.navLinks li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+.PartOne{
+    width: 100%;
+    color: white;
+     min-height: 500px;
+     background-image: url(pic1.jpg);
+    background-color:gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   
+}
+.bgPic{
+   
+    background-color: rgb(0 0 0 / 63%);
+        background-color: rgb(0 0 0 / 63%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.form{
+ position: absolute;
+    right: 281px;
+bottom: 73px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+    
+}
+.form input{
+    margin: 10px;
+   padding: 5px;
+    font-size: 18px;
+    border-radius:  4px ;
+    color: black;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    cursor: pointer;
+    
+}
+.form input:hover{ background: #e7e7e7; }
+
+.blockButton {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #FF8B38;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.form h2{
+    background-color: #fbecec;
+    text-align: center;
+    margin-top: 0;
+    height: 44px;
+        padding: 5px;
+}
+.Text{
+    position: relative;
+        float: left;
+    width: 30%;
+    margin-left: 9%;
+    margin-top: 10%;
+
+}
+.Text p{
+    font-size: 20px;
+}
+.Text hr{
+    color: white;
+    margin-left: 4%;
+    width: 22%;
+}
+.btn {
+  border: 2px solid black;
+
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+        margin: 23px;
+
+}
+
+
+.btn:hover {
+  background: #e7e7e7;
+}
+.clear{
+    clear:both;
+}
+.part2{
+    color: black;
+    background-color: #F5F5F5;
+    width: 100%;
+      margin-top: -17pxpx;
+    
+}
+.textPartTow{
+    float: left;
+    width: 30%;
+}
+.iconPartTow{
+    float: right;
+    width: 50%;
+        font-size: 51px;
+}
+.iconPartTow span{
+    margin: 13px;
+}
+.partGR{
+    background-color: #F5F5F5;
+    width: 100%;
+    color: black;
+    height: 350px;
+}
+.tableP3{
+    float: left;
+    width: 20%;
+    display: inline-block;
+}
+.tableP3 tr td{
+    border: 1px solid black;
+        padding: 25px;
+    background-color: #FF8B38;
+}
+.marg{
+    padding-top: 40px;
+}
+
+.left{
+    float: right;
+    width: 20%;
+       display: flex;
+    position: relative;
+    right: 280px;
+}
+.tbutton{
+        text-align: center;
+    position: relative;
+    left: 233px;
+    padding: 12px;
+    padding-right: 31px;
+    background-color: #FF8B38
+} 
+.any{
+   display: inline-block;
+    position: relative;
+    width: 25%;
+}
+.any2{
+    left: 135px;
+    float: right;
+}
+.pic{
+    float: right;
+    position: relative;
+    width: 20%;
+    bottom: 291px;
+    right: 88px;
+    cursor: pointer;
+}
+.lin{
+       width: 20%;
+    border-width: 2px;
+    position: relative;
+    right: 113px;
+    border-block-color: #FF8B38;
+}
+.right{
+    float: left;
+    width: 25%;
+}
+.partWH{
+    background-color: #FFFFFF;
+    width: 100%;
+    color: black;
+}
+.shap{
+        border-radius: 50%;
+    border: 3px solid #FF8B38;
+    padding: 7px;
+}
+.text1{
+        padding-left: 51px;
+}
+
+.picPad{
+    position: relative;
+    right: 243px;
+}
+hr{
+    width: 20%;
+    border-width: 2px;
+    border-block-color: #FF8B38;
+}
+h1 {
+    text-align: center;
+}
+.Tbig{
+    text-align: center;
+}
+.cont{
+    text-align: center;
+    word-spacing: 274px;
+    font-size: 63px;
+    margin: 8px; 
+}
+.cont1{
+        text-align: center;
+    
+}
+.cont1 h3{
+        display: inline-flex;
+    padding-inline: 130px;
+}
+.cont1 p{
+    width: 25%;
+    display: inline-flex;
+    padding-right: 41px;
+    padding-left: 44px;
+}
+
+.CRim{
+     
+        width: 20%;
+    margin-left: 130px;
+    padding: 2px;
+
+}
+.CR{
+    height: 500px;
+    margin-top: 10px;
+    padding: 5px;
+    
+        
+}
+.rectangle {
+  height: 101px;
+    width: 246px;
+    background-color: #dbd4d4;
+    display: inline-flex;
+    margin-left: 124px;
+    margin-top: 50px;
+}
+.pc{
+
+    height: 18%;
+    border-radius: 50%;
+    float: left;
+    padding: 2%;
+    width: 30%;
+    font-size: 30px;
+    text-align: left;
+}
+.word{
+    position: relative;
+    top: 31px;
+}
+.eq{
+        float: right;
+    width: 30%;
+}
+.imgPic2{
+    background-image: url(pic5.jpg);
+     min-height: 200px;
+    
+    background-color:gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tex{
+    color: white;
+    text-align: center;
+    padding-top: 39px;
+}
+.inForm{
+        display: inline-block;
+    border-width: 1px;
+    margin-bottom: 2%;
+    padding: 2%;
+    font-size: 18px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    cursor: pointer;
+}
+.inForm:hover {
+  background: #e7e7e7;
+}
+#msg{
+        position: relative;
+    float: right;
+    font-size: 30px;
+    bottom: 153px;
+    border-top: hidden;
+    width: 50%;
+    border-left: hidden;
+    border-right: hidden;
+    cursor: text;
+}
+.foot{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    word-spacing: 37px;
+    padding-top: 17px;
+    padding-bottom: 25px;
+}
+.btnC{
+    background-color: #FF8B38;
+    align-content: center;
+}
